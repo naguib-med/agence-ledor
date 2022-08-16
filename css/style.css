@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+strong {
+  color: #845ec2;
+  font-weight: 400;
+}
+
+/* vp + header */
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.vp-header {
+  background: #3b1e79;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  line-height: 1.8rem;
+}
+
+.vp-header a {
+  color: white;
+}
+
+.vp-logo {
+  font-family: "Long Cang", cursive;
+  margin-bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vp-logo i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #be93fd;
+}
+
+.vp-logo a {
+  font-size: 3rem;
+}
+
+.vp-header .vp-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+.vp-header .vp-list li {
+  padding: 1rem;
+}
+
+.vp-header .vp-list li a:hover {
+  color: #dcb0ff;
+}
+
+/* vp */
+
+.vp {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project2/frame.jpg)
+    center center/cover;
+}
+
+.vp-content {
+  max-width: 800px;
+  color: white;
+  text-align: center;
+}
+
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
