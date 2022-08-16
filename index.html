@@ -61,7 +61,10 @@
       <div class="container">
         <h2 class="title">Nos dernieres offres</h2>
         <ul class="offer-list">
-          <li class="offer-list-item animate__animated animate__bounceInLeft">
+          <li
+            id="offerBtn1"
+            class="offer-list-item animate__animated animate__bounceInLeft"
+          >
             <img class="offer-image" src="images/house-1.jpg" alt="house1" />
             <div class="offer-description">
               <p>Appartement - Paris 75001</p>
@@ -71,7 +74,10 @@
             </div>
           </li>
 
-          <li class="offer-list-item animate__animated animate__bounceInLeft">
+          <li
+            id="offerBtn2"
+            class="offer-list-item animate__animated animate__bounceInLeft"
+          >
             <img class="offer-image" src="images/house-2.jpg" alt="house2" />
             <div class="offer-description">
               <p>Appartement - Paris 75001</p>
@@ -81,7 +87,10 @@
             </div>
           </li>
 
-          <li class="offer-list-item animate__animated animate__bounceInLeft">
+          <li
+            id="offerBtn3"
+            class="offer-list-item animate__animated animate__bounceInLeft"
+          >
             <img class="offer-image" src="images/house-3.jpg" alt="house3" />
             <div class="offer-description">
               <p>Appartement - Paris 75001</p>
@@ -93,6 +102,22 @@
         </ul>
       </div>
     </section>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span style="color: #180085" class="close">&times;</span>
+        <h2>Appartement - Paris 75001</h2>
+        <div class="offer-list-item">
+          <img class="offer-image" src="images/house-3.jpg" alt="house3" />
+          <div class="offer-description">
+            <p>Appartement - Paris 75001</p>
+            <p>5 chambres 233 m2</p>
+            <div class="offer-separator"></div>
+            <p>3 900 000 € - $4 200 000</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="who animate__animated animate__bounceInRight" id="who">
       <div class="who-content-img">
@@ -192,6 +217,7 @@
         </div>
       </div>
     </section>
-    <!-- ... -->
+
+    <script src="js/script.js"></script>
   </body>
 </html>
